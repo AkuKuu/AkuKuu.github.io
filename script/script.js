@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
                     Counter: $(this).text()
                 }, {
                     
-                    duration: 4500,
+                    duration: 6500,
                     easing: 'swing',
                     step: function(now) {
                         $(this).text(Math.ceil(now));
